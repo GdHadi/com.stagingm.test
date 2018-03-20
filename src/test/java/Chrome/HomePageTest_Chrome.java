@@ -11,7 +11,7 @@ import com.stagingm.com.stagingm.test.HomePage_PO;
 public class HomePageTest_Chrome {
 	@BeforeMethod
 	public void initiateDriver() {
-		System.setProperty("webdriver.chrome.driver","D:\\MY WORK DOC\\Document dewak\\Automation Testing\\Workspace\\com.stagingm.test\\web_driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver.exe");
 	} 
 	
 		

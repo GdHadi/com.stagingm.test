@@ -13,7 +13,7 @@ import com.stagingm.com.stagingm.test.ServiceMenu_PO;
 public class ServiceMenuTest_Firefox {
 	@BeforeMethod
 	public void initiateDriver() {
-		System.setProperty("webdriver.gecko.driver","D:\\MY WORK DOC\\Document dewak\\Automation Testing\\Workspace\\com.stagingm.test\\web_driver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:\\WebDriver\\geckodriver.exe");
 	} 
 	
 		
