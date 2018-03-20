@@ -1,5 +1,5 @@
 //package fireFox;
-package fireFox;
+package Firefox;
 
 import java.util.concurrent.TimeUnit;
 
