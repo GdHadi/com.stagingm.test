@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.stagingm.com.stagingm.test.HomePagePattern_Chrome;
+import com.stagingm.com.stagingm.test.HomePage_PO;
 
 public class HomepageTest_Firefox {
 	@BeforeMethod
@@ -25,7 +25,7 @@ public class HomepageTest_Firefox {
 			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			
 			//Click on Contact Us button	
-			HomePagePattern_Chrome homepage = new HomePagePattern_Chrome(driver);
+			HomePage_PO homepage = new HomePage_PO(driver);
 			homepage.ContactUsBtn();
 			
 	//validate by showing "Locate Us" on the Contact Page

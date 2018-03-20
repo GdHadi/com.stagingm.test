@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-public class Pattern_ServiceMenu {
+public class ServiceMenu_PO {
 	WebDriver driver;
 	By Services_Menu = By.xpath ("//*[@id='menu-item-1299']/a");
 	By MicWinApp = By.id("menu-item-1309");
@@ -41,7 +41,7 @@ public class Pattern_ServiceMenu {
 	By LowCode_Devp = By.id("menu-item-1640");
 	By LowCode_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
 	
-	public Pattern_ServiceMenu(WebDriver driver)
+	public ServiceMenu_PO(WebDriver driver)
 	{
 		this.driver = driver;
 	}

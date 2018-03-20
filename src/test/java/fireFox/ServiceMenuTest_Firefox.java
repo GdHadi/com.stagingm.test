@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.stagingm.com.stagingm.test.Pattern_ServiceMenu;
+import com.stagingm.com.stagingm.test.ServiceMenu_PO;
 
 public class ServiceMenuTest_Firefox {
 	@BeforeMethod
@@ -26,7 +26,7 @@ public class ServiceMenuTest_Firefox {
 			
 
 			//Click on Contact menu Services	
-					Pattern_ServiceMenu Services = new Pattern_ServiceMenu(driver);
+					ServiceMenu_PO Services = new ServiceMenu_PO(driver);
 				//	Services.ServicesMenu();
 					
 			//Click on Sub menu Microsoft Windows Applications

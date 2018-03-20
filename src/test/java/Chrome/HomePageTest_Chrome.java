@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.stagingm.com.stagingm.test.HomePagePattern_Chrome;
+import com.stagingm.com.stagingm.test.HomePage_PO;
 
 public class HomePageTest_Chrome {
 	@BeforeMethod
@@ -24,10 +24,10 @@ public class HomePageTest_Chrome {
 			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			
 	//Click on Contact Us button	
-			HomePagePattern_Chrome homepage = new HomePagePattern_Chrome(driver);
+			HomePage_PO homepage = new HomePage_PO(driver);
 			homepage.ContactUsBtn();
 			
-	//validate by showing "Locate Us" on the Contact Page
+	//validate by showing "Contact Us" on the Contact Page
 			homepage.Assrt1();
 	
 			//wait for element ready
@@ -39,10 +39,10 @@ public class HomePageTest_Chrome {
 	
 				
 	//Click Learn More Button on About US at homepage1
-			homepage.LearnMore_AboutUS();
+		//	homepage.LearnMore_AboutUS();
 			
 	//Validate by showing About us page
-			homepage.Assrt2();
+		//	homepage.Assrt2();
 	
 				
 	}
