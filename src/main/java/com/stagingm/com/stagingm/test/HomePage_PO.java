@@ -37,7 +37,7 @@ public class HomePage_PO {
 	public void CLICKaboutUsLink (){
 	driver.findElement(AboutUsLink).click();
 	}
-	public void HOVERservice (){
+	public void HOVERserviceCLICKsoftDevLink (){
 	Actions builder = new Actions (driver);
 	builder.moveToElement(driver.findElement(Service)).perform();
 	driver.findElement(softDevLink).click();
