@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17246" started-at="2018-03-20T06:22:29Z" finished-at="2018-03-20T06:22:47Z">
+  <suite name="Default suite" duration-ms="25970" started-at="2018-03-20T09:01:26Z" finished-at="2018-03-20T09:01:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17246" started-at="2018-03-20T06:22:29Z" finished-at="2018-03-20T06:22:47Z">
+    <test name="Default test" duration-ms="25970" started-at="2018-03-20T09:01:26Z" finished-at="2018-03-20T09:01:51Z">
       <class name="Chrome.HomePageTest_Chrome">
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.HomePageTest_Chrome@5e5792a0]" name="initiateDriver" is-config="true" duration-ms="10" started-at="2018-03-20T14:22:30Z" finished-at="2018-03-20T14:22:30Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.HomePageTest_Chrome@5e5792a0]" name="initiateDriver" is-config="true" duration-ms="8" started-at="2018-03-20T17:01:26Z" finished-at="2018-03-20T17:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="Accesshomepage()[pri:0, instance:Chrome.HomePageTest_Chrome@5e5792a0]" name="Accesshomepage" duration-ms="17208" started-at="2018-03-20T14:22:30Z" finished-at="2018-03-20T14:22:47Z">
+        <test-method status="PASS" signature="Accesshomepage()[pri:0, instance:Chrome.HomePageTest_Chrome@5e5792a0]" name="Accesshomepage" duration-ms="25932" started-at="2018-03-20T17:01:26Z" finished-at="2018-03-20T17:01:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Accesshomepage -->
