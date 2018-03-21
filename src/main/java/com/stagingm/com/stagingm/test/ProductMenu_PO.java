@@ -76,4 +76,172 @@ public class ProductMenu_PO {
 			{
 				driver.findElement(CCLAS_Text).isDisplayed();
 			}
+			
+			//Validate CLASIC_TEST-actions
+			public void CLICKclasic() throws InterruptedException
+				{
+					HoverMouseonProducts();
+					WebElement submenu2 = driver.findElement(CLASIC_Menu);
+					Actions action103 = new Actions(driver); action103.moveToElement(submenu2).click().build().perform();   
+				}
+			//Validate CLASSIC-assert
+				public void ASSERTclasic ()
+				{
+					driver.findElement(CLASIC_Text).isDisplayed();
+				}
+				
+			//Validate ELLIPSE_TEST-actions
+				public void CLICKellipse() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(ELLIPSE_Menu);
+						Actions action104 = new Actions(driver); action104.moveToElement(submenu2).click().build().perform();   
+					}
+			//Validate ELLIPSE-assert
+				public void ASSERTellipse ()
+					{
+						driver.findElement(ELLIPSE_Text).isDisplayed();
+					}
+			
+			//Validate LINKONE_TEST-actions
+				public void CLICKlinkOne() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(LINKONE_Menu);
+						Actions action105 = new Actions(driver); action105.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate LINKONE-assert
+				public void ASSERTlinkOne ()
+					{
+						driver.findElement(LINKONE_Text).isDisplayed();
+					}
+					
+				
+			//Validate MINEMARKET_TEST-actions
+				public void CLICKmineMarket() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(MINEMARKET_Menu);
+						Actions action106 = new Actions(driver); action106.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate MINEMARKET-assert
+				public void ASSERTmineMarket()
+					{
+						driver.findElement(MINEMARKET_Text).isDisplayed();
+					}
+				
+			//Validate MINESCAPE_TEST-actions
+				public void CLICKmineScape() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(MINESCAPE_Menu);
+						Actions action107 = new Actions(driver); action107.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate MINESCAPE-assert
+				public void ASSERTmineScape()
+					{
+						driver.findElement(MINESCAPE_Text).isDisplayed();
+					}
+			
+			//Validate SPRYSCHEDULER_TEST-actions
+				public void CLICKspryScheduler() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(SPRYSCHEDULER_Menu);
+						Actions action108 = new Actions(driver); action108.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate SPRYSCHEDULER-assert
+				public void ASSERTspryScheduler()
+					{
+						driver.findElement(SPRYSCHEDULER_Text).isDisplayed();
+					}
+				
+			//Validate MCAT_TEST-actions
+				public void CLICKmCat() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(MCAT_Menu);
+						Actions action109 = new Actions(driver); action109.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate MCAT-assert
+				public void ASSERTmCat()
+					{
+						driver.findElement(MCAT_Text).isDisplayed();
+					}
+			
+			//Validate MEDICALSOFTWARE_TEST-actions
+				public void CLICKmedicalSoftware() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(MEDICALSOFTWARE_Menu);
+						Actions action110 = new Actions(driver); action110.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate MEDICALSOFTWARE-assert
+				public void ASSERTmedicalSoftware()
+					{
+						driver.findElement(MEDICALSOFTWARE_Text).isDisplayed();
+					}
+				
+			//Validate HIS_TEST-actions
+				public void CLICKhis() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(HIS_Menu);
+						Actions action111 = new Actions(driver); action111.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate HIS-assert
+				public void ASSERThis()
+					{
+						driver.findElement(HIS_Text).isDisplayed();
+					}		
+				
+			//Validate PATIENTADMSYSTEM_TEST-actions
+				public void CLICKpatientAdminSystem() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(PATIENTADMSYS_Menu);
+						Actions action112 = new Actions(driver); action112.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate PATIENTADMSYSTEM-assert
+				public void ASSERTpatientAdminSystem()
+					{
+						driver.findElement(PATIENTADMSYS_Text).isDisplayed();
+					}	
+				
+			//Validate FINANCEFORHOSPITAL_TEST-actions
+				public void CLICKfinanceForHospital() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(FINANCEFORHOSPITAL_Menu);
+						Actions action113 = new Actions(driver); action113.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate FINANCEFORHOSPITAL-assert
+				public void ASSERTfinanceForHospital()
+					{
+						driver.findElement(FINANCEFORHOSPITAL_Text).isDisplayed();
+					}
+			
+			//Validate OCCUPATIONALHEALTH_TEST-actions
+				public void CLICKoccupatinalHealth() throws InterruptedException
+					{
+						HoverMouseonProducts();
+						WebElement submenu2 = driver.findElement(OCCUPATIONALHEALTH_Menu);
+						Actions action114 = new Actions(driver); action114.moveToElement(submenu2).click().build().perform();   
+					}
+				
+			//Validate OCCUPATIONALHEALTH-assert
+				public void ASSERToccupatinalHealth()
+					{
+						driver.findElement(OCCUPATIONALHEALTH_Text).isDisplayed();
+					}
+				
 }
