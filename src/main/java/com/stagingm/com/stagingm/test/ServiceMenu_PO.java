@@ -86,7 +86,7 @@ public class ServiceMenu_PO {
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Java_Tech);
-				Actions action3 = new Actions(driver); action3.moveToElement(submenu1).click().build().perform();   
+				Actions action17 = new Actions(driver); action17.moveToElement(submenu1).click().build().perform();   
 				}
 		//Validate JavaTechnologies-assert		
 				public void ASSERTjavaTechnologies ()
@@ -125,7 +125,7 @@ public class ServiceMenu_PO {
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Soft_Design);
-				Actions action5 = new Actions(driver); action5.moveToElement(submenu1).click().build().perform();   
+				Actions action16 = new Actions(driver); action16.moveToElement(submenu1).click().build().perform();   
 				}
 		//Validate SoftwareDesignTools-assert
 				public void ASSERTsoftwareDesignTools ()
@@ -151,7 +151,7 @@ public class ServiceMenu_PO {
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(User_Interact);
-				Actions action6 = new Actions(driver); action6.moveToElement(submenu1).click().build().perform();   
+				Actions action15 = new Actions(driver); action15.moveToElement(submenu1).click().build().perform();   
 				}
 		//Validate UserInteractionDesign-assert	
 				public void ASSERTuserInteractionDesign ()

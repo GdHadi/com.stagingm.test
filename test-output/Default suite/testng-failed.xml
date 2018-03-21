@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Firefox.ServiceMenuTest_Firefox">
+      <class name="Chrome.ProductMenuTest_Chrome">
         <methods>
-          <include name="EllipseMenu"/>
           <include name="initiateDriver"/>
-          <include name="WebFrontEndMenu"/>
+          <include name="CCLASMenu"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Firefox.ServiceMenuTest_Firefox -->
+      </class> <!-- Chrome.ProductMenuTest_Chrome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
