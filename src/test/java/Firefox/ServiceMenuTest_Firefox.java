@@ -1,23 +1,25 @@
-package Chrome;
+//package fireFox;
+package Firefox;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.stagingm.com.stagingm.test.ServiceMenu_PO;
 
-public class ServiceMenuTest_Chrome {
+public class ServiceMenuTest_Firefox {
+	
 	public static WebDriver driver;
 	public static ServiceMenu_PO Services;
 	
 	@BeforeMethod
 	public void initiateDriver() {
-		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver.exe");
-		driver=new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver","C:\\WebDriver\\geckodriver.exe");
+		driver=new FirefoxDriver();
 		driver.get("https://stagingmitrais.com/en/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
@@ -172,6 +174,5 @@ public class ServiceMenuTest_Chrome {
 				Services.ASSERTlowCodeDevelopment();
 				//Thread.sleep(2000);		
 			};	
-					
-	
+				
 }

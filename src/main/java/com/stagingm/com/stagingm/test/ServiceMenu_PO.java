@@ -45,11 +45,7 @@ public class ServiceMenu_PO {
 	{
 		this.driver = driver;
 	}
-	//public void ServicesMenu()
-	//{
-	//	driver.findElement(Services_Menu).click();
-	//}
-
+	
 	//Hovering mouse on Service and Select
 		public void HoverMouseonServices() throws InterruptedException
 	{
@@ -57,210 +53,213 @@ public class ServiceMenu_PO {
 		Actions action1 = new Actions(driver); action1.moveToElement(Services).perform();
 		Thread.sleep(2000);
 	}
-		//Click on Sub menu Microsoft Windows Applications
-		public void CallSubmenu1() throws InterruptedException
-		{
-		HoverMouseonServices();
-		WebElement submenu1 = driver.findElement(MicWinApp);
-		Actions action2 = new Actions(driver); action2.moveToElement(submenu1).click().build().perform();   
-		}
-			
-		public void AsserMicWinApp ()
-		{
-			driver.findElement(Microsoft_Text).isDisplayed();
-		}
+		//Validate MicrosoftWindowsApplications_TEST-actions
+			public void CLICKmicrosoftWindowsApps() throws InterruptedException
+				{
+				HoverMouseonServices();
+				WebElement submenu1 = driver.findElement(MicWinApp);
+				Actions action2 = new Actions(driver); action2.moveToElement(submenu1).click().build().perform();   
+				}
 		
-		//Click on Sub menu Mobile Services
-				public void CallSubmenu2() throws InterruptedException
+		//Validate MicrosoftWindowsApplications-assert
+				public void ASSERTmicrosoftWindowsApps ()
+				{
+					driver.findElement(Microsoft_Text).isDisplayed();
+				}
+		
+		//Validate MobileServices_TEST-actions
+				public void CLICKmobileServices() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Mob_Serv);
 				Actions action3 = new Actions(driver); action3.moveToElement(submenu1).click().build().perform();   
 				}
 				
-				public void AsserMobServ ()
+		//Validate MicrosoftWindowsApplications-assert
+				public void ASSERTmobileServices ()
 				{
 					driver.findElement(Mob_Serv_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Java Technologies
-				public void CallSubmenu3() throws InterruptedException
+		//Validate JavaTechnologies_TEST_actions
+				public void JavaTechnologies() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Java_Tech);
 				Actions action3 = new Actions(driver); action3.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserJavaTech ()
+		//Validate JavaTechnologies-assert		
+				public void ASSERTjavaTechnologies ()
 				{
 					driver.findElement(Java_Tech_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Business Inteligent
-				public void CallSubmenu4() throws InterruptedException
+		//Validate BusinessInteligence_TEST_actions
+				public void CLICKbusinessIntelegence() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Business_Intl);
 				Actions action4 = new Actions(driver); action4.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserBusinessIntl ()
+		//Validate BusinessIntelegence-assert	
+				public void ASSERTbusinessIntelegence ()
 				{
 					driver.findElement(Business_Intl_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Web Front End
-				public void CallSubmenu5() throws InterruptedException
+		//Validate WebFrontEnd_TEST_actions
+				public void CLICKwebFrontEnd() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Web_FRE);
 				Actions action5 = new Actions(driver); action5.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserWebFE ()
+		//Validate WebFrontEnd-assert		
+				public void ASSERTwebFrontEnd ()
 				{
 					driver.findElement(Web_FRE_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Software Design Tools
-				public void CallSubmenu6() throws InterruptedException
+		//Validate  SoftwareDesignTools_TEST_actions
+				public void CLICKsoftwareDesignTools() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Soft_Design);
 				Actions action5 = new Actions(driver); action5.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserSoftDesign ()
+		//Validate SoftwareDesignTools-assert
+				public void ASSERTsoftwareDesignTools ()
 				{
 					driver.findElement(Soft_Design_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Ruby On Rails Development
-				public void CallSubmenu7() throws InterruptedException
+		//Validate RubyOnRailsDevelopment_TEST_actions
+				public void CLICKrubyOnRailsDevelopment() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Ruby_Rail);
 				Actions action6 = new Actions(driver); action6.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserRubyonRail ()
+		//Validate RubyOnRailsDevelopment-assert		
+				public void ASSERTrubyOnRailsDevelopment ()
 				{
 					driver.findElement(Ruby_Rail_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu User Interaction Design
-				public void CallSubmenu8() throws InterruptedException
+		//Validate UserInteractionDesign_TEST_actions
+				public void CLICKuserInteractionDesign() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(User_Interact);
 				Actions action6 = new Actions(driver); action6.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserUserInteract ()
+		//Validate UserInteractionDesign-assert	
+				public void ASSERTuserInteractionDesign ()
 				{
 					driver.findElement(User_Interact_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Web Solution
-				public void CallSubmenu9() throws InterruptedException
+		//Validate WebSolution_TEST_actions
+				public void CLICKwebSolution() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Web_Sol);
 				Actions action7 = new Actions(driver); action7.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserUserWebSol ()
+		//Validate WebSolution-assert			
+				public void ASSERTwebSolution ()
 				{
 					driver.findElement(Web_Sol_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Ellipse
-				public void CallSubmenu10() throws InterruptedException
+		//Validate Ellipse_TEST_actions
+				public void CLICKellipse() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Ellipse);
 				Actions action8 = new Actions(driver); action8.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserEllipse ()
+		//Validate Ellipse-assert		
+				public void ASSERTellipse ()
 				{
 					driver.findElement(Ellipse_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Enterpise Integration
-				public void CallSubmenu11() throws InterruptedException
+		//Validate EnterpriseIntegration_TEST_actions
+				public void CLICKenterpriseIntegration() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Enterpise_Int);
 				Actions action9 = new Actions(driver); action9.moveToElement(submenu1).click().build().perform();   
 				}
 				
-				public void AsserEnterpiseInt ()
+		//Validate EnterpriseIntegration-assert
+				public void ASSERTenterpriseIntegration ()
 				{
 					driver.findElement(Enterpise_Int_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Software Quality and Testing
-				public void CallSubmenu12() throws InterruptedException
+		//Validate SoftwareQualityAndTesting_TEST_actions
+				public void CLICKsoftwareQualityAndTesting() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Soft_Test);
 				Actions action10 = new Actions(driver); action10.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserSoftTest ()
+		//Validate SoftwareQualityAndTesting-assert		
+				public void ASSERTsoftwareQualityAndTesting ()
 				{
 					driver.findElement(Soft_Test_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu PHP Development
-				public void CallSubmenu13() throws InterruptedException
+		//Validate PHPDevelopment_TEST_actions
+				public void CLICKphpDevelopment() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(PHP_Devp);
 				Actions action11 = new Actions(driver); action11.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserPHPDevp ()
+		//Validate PHPDevelopment-assert		
+				public void ASSERTphpDevelopment ()
 				{
 					driver.findElement(PHP_Devp_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Java script Development
-				public void CallSubmenu14() throws InterruptedException
+		//Validate JavascriptDevelopment_TEST_actions
+				public void CLICKjavascriptDevelopment() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(JavaSript_Devp);
 				Actions action12 = new Actions(driver); action12.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserJavasript ()
+		//Validate JavascriptDevelopment-assert	
+				public void ASSERTjavascriptDevelopment()
 				{
 					driver.findElement(JavaSript_Devp_Text).isDisplayed();
 				}
 				
-				//Click on Sub menu Managed Service
-				public void CallSubmenu15() throws InterruptedException
+		//Validate ManagedService_TEST_actions
+				public void CLICKmanagedService() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(Managed_Serv);
 				Actions action13 = new Actions(driver); action13.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserManagedServ ()
+		//Validate ManagedService-assert		
+				public void ASSERTmanagedService()
 				{
 					driver.findElement(Managed_Serv_Text).isDisplayed();
 				}
 				
-				//Click on Low Code Development
-				public void CallSubmenu16() throws InterruptedException
+		//Validate LowCodeDevelopment_TEST_actions
+				public void CLICKlowCodeDevelopment() throws InterruptedException
 				{
 				HoverMouseonServices();
 				WebElement submenu1 = driver.findElement(LowCode_Devp);
 				Actions action14 = new Actions(driver); action14.moveToElement(submenu1).click().build().perform();   
 				}
-				
-				public void AsserLowCodeDevp()
+		//Validate LowCodeDevelopment-assert				
+				public void ASSERTlowCodeDevelopment()
 				{
 					driver.findElement(Managed_Serv_Text).isDisplayed();
 				}
