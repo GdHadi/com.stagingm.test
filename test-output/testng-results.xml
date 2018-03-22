@@ -1,181 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="256498" started-at="2018-03-22T06:34:54Z" finished-at="2018-03-22T06:39:10Z">
+  <suite name="Default suite" duration-ms="259570" started-at="2018-03-22T09:02:20Z" finished-at="2018-03-22T09:06:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="256498" started-at="2018-03-22T06:34:54Z" finished-at="2018-03-22T06:39:10Z">
-      <class name="Chrome.ProductMenuTest_Chrome">
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="26539" started-at="2018-03-22T14:34:54Z" finished-at="2018-03-22T14:35:20Z">
+    <test name="Default test" duration-ms="259570" started-at="2018-03-22T09:02:20Z" finished-at="2018-03-22T09:06:40Z">
+      <class name="Chrome.ServiceMenuTest_Chrome">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="11453" started-at="2018-03-22T17:02:20Z" finished-at="2018-03-22T17:02:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="MiningSoftwareMenu()[pri:1, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="MiningSoftwareMenu" duration-ms="4788" started-at="2018-03-22T14:35:20Z" finished-at="2018-03-22T14:35:25Z">
+        <test-method status="PASS" signature="MicrosoftWindowsAppsMenu()[pri:1, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="MicrosoftWindowsAppsMenu" duration-ms="5936" started-at="2018-03-22T17:02:31Z" finished-at="2018-03-22T17:02:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MiningSoftwareMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="228" started-at="2018-03-22T14:35:25Z" finished-at="2018-03-22T14:35:25Z">
+        </test-method> <!-- MicrosoftWindowsAppsMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="174" started-at="2018-03-22T17:02:37Z" finished-at="2018-03-22T17:02:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8712" started-at="2018-03-22T14:35:25Z" finished-at="2018-03-22T14:35:34Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="10677" started-at="2018-03-22T17:02:38Z" finished-at="2018-03-22T17:02:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="CCLASMenu()[pri:2, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="CCLASMenu" duration-ms="5553" started-at="2018-03-22T14:35:34Z" finished-at="2018-03-22T14:35:39Z">
+        <test-method status="PASS" signature="MobileServicesMenu()[pri:2, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="MobileServicesMenu" duration-ms="5225" started-at="2018-03-22T17:02:48Z" finished-at="2018-03-22T17:02:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CCLASMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="180" started-at="2018-03-22T14:35:39Z" finished-at="2018-03-22T14:35:40Z">
+        </test-method> <!-- MobileServicesMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="153" started-at="2018-03-22T17:02:53Z" finished-at="2018-03-22T17:02:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8758" started-at="2018-03-22T14:35:40Z" finished-at="2018-03-22T14:35:48Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8020" started-at="2018-03-22T17:02:54Z" finished-at="2018-03-22T17:03:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="CLASICMenu()[pri:3, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="CLASICMenu" duration-ms="8757" started-at="2018-03-22T14:35:48Z" finished-at="2018-03-22T14:35:57Z">
+        <test-method status="PASS" signature="JavaTechnologiesMenu()[pri:3, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="JavaTechnologiesMenu" duration-ms="5562" started-at="2018-03-22T17:03:02Z" finished-at="2018-03-22T17:03:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CLASICMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="153" started-at="2018-03-22T14:35:57Z" finished-at="2018-03-22T14:35:57Z">
+        </test-method> <!-- JavaTechnologiesMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="2404" started-at="2018-03-22T17:03:07Z" finished-at="2018-03-22T17:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7809" started-at="2018-03-22T14:35:57Z" finished-at="2018-03-22T14:36:05Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8776" started-at="2018-03-22T17:03:10Z" finished-at="2018-03-22T17:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="ELLIPSEMenu()[pri:4, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="ELLIPSEMenu" duration-ms="5717" started-at="2018-03-22T14:36:05Z" finished-at="2018-03-22T14:36:11Z">
+        <test-method status="PASS" signature="BusinessIntelegenceMenu()[pri:4, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="BusinessIntelegenceMenu" duration-ms="5371" started-at="2018-03-22T17:03:18Z" finished-at="2018-03-22T17:03:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ELLIPSEMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="141" started-at="2018-03-22T14:36:11Z" finished-at="2018-03-22T14:36:11Z">
+        </test-method> <!-- BusinessIntelegenceMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="191" started-at="2018-03-22T17:03:24Z" finished-at="2018-03-22T17:03:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="14073" started-at="2018-03-22T14:36:11Z" finished-at="2018-03-22T14:36:25Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8310" started-at="2018-03-22T17:03:24Z" finished-at="2018-03-22T17:03:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="LINKONEMenu()[pri:5, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="LINKONEMenu" duration-ms="7783" started-at="2018-03-22T14:36:25Z" finished-at="2018-03-22T14:36:33Z">
+        <test-method status="PASS" signature="WebFrontEndMenu()[pri:5, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="WebFrontEndMenu" duration-ms="5331" started-at="2018-03-22T17:03:32Z" finished-at="2018-03-22T17:03:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LINKONEMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="217" started-at="2018-03-22T14:36:33Z" finished-at="2018-03-22T14:36:33Z">
+        </test-method> <!-- WebFrontEndMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="190" started-at="2018-03-22T17:03:38Z" finished-at="2018-03-22T17:03:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7461" started-at="2018-03-22T14:36:33Z" finished-at="2018-03-22T14:36:41Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7968" started-at="2018-03-22T17:03:38Z" finished-at="2018-03-22T17:03:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="MINEMARKETMenu()[pri:6, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="MINEMARKETMenu" duration-ms="5712" started-at="2018-03-22T14:36:41Z" finished-at="2018-03-22T14:36:46Z">
+        <test-method status="PASS" signature="SoftwareDesignToolsMenu()[pri:6, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="SoftwareDesignToolsMenu" duration-ms="6012" started-at="2018-03-22T17:03:46Z" finished-at="2018-03-22T17:03:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MINEMARKETMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="148" started-at="2018-03-22T14:36:46Z" finished-at="2018-03-22T14:36:46Z">
+        </test-method> <!-- SoftwareDesignToolsMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="147" started-at="2018-03-22T17:03:52Z" finished-at="2018-03-22T17:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="17352" started-at="2018-03-22T14:36:46Z" finished-at="2018-03-22T14:37:04Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8710" started-at="2018-03-22T17:03:52Z" finished-at="2018-03-22T17:04:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="MINESCAPEMenu()[pri:7, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="MINESCAPEMenu" duration-ms="4968" started-at="2018-03-22T14:37:04Z" finished-at="2018-03-22T14:37:09Z">
+        <test-method status="PASS" signature="RubyOnRailsDevelopmentMenu()[pri:7, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="RubyOnRailsDevelopmentMenu" duration-ms="5829" started-at="2018-03-22T17:04:01Z" finished-at="2018-03-22T17:04:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MINESCAPEMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="182" started-at="2018-03-22T14:37:09Z" finished-at="2018-03-22T14:37:09Z">
+        </test-method> <!-- RubyOnRailsDevelopmentMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="184" started-at="2018-03-22T17:04:06Z" finished-at="2018-03-22T17:04:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="14654" started-at="2018-03-22T14:37:09Z" finished-at="2018-03-22T14:37:24Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7857" started-at="2018-03-22T17:04:07Z" finished-at="2018-03-22T17:04:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="SPRYSCHEDULERMenu()[pri:8, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="SPRYSCHEDULERMenu" duration-ms="4962" started-at="2018-03-22T14:37:24Z" finished-at="2018-03-22T14:37:28Z">
+        <test-method status="PASS" signature="UserInteractionDesignMenu()[pri:8, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="UserInteractionDesignMenu" duration-ms="5598" started-at="2018-03-22T17:04:14Z" finished-at="2018-03-22T17:04:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SPRYSCHEDULERMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="176" started-at="2018-03-22T14:37:28Z" finished-at="2018-03-22T14:37:29Z">
+        </test-method> <!-- UserInteractionDesignMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="171" started-at="2018-03-22T17:04:20Z" finished-at="2018-03-22T17:04:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8034" started-at="2018-03-22T14:37:29Z" finished-at="2018-03-22T14:37:37Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8043" started-at="2018-03-22T17:04:20Z" finished-at="2018-03-22T17:04:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="MCATMenu()[pri:9, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="MCATMenu" duration-ms="5766" started-at="2018-03-22T14:37:37Z" finished-at="2018-03-22T14:37:42Z">
+        <test-method status="PASS" signature="WebSolutionMenu()[pri:9, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="WebSolutionMenu" duration-ms="6107" started-at="2018-03-22T17:04:28Z" finished-at="2018-03-22T17:04:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MCATMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="139" started-at="2018-03-22T14:37:42Z" finished-at="2018-03-22T14:37:43Z">
+        </test-method> <!-- WebSolutionMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="170" started-at="2018-03-22T17:04:34Z" finished-at="2018-03-22T17:04:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7510" started-at="2018-03-22T14:37:43Z" finished-at="2018-03-22T14:37:50Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="10402" started-at="2018-03-22T17:04:35Z" finished-at="2018-03-22T17:04:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="MEDICALSOFTWAREMenu()[pri:10, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="MEDICALSOFTWAREMenu" duration-ms="11296" started-at="2018-03-22T14:37:50Z" finished-at="2018-03-22T14:38:01Z">
+        <test-method status="PASS" signature="EllipseMenu()[pri:10, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="EllipseMenu" duration-ms="5834" started-at="2018-03-22T17:04:45Z" finished-at="2018-03-22T17:04:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MEDICALSOFTWAREMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="2340" started-at="2018-03-22T14:38:01Z" finished-at="2018-03-22T14:38:04Z">
+        </test-method> <!-- EllipseMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="154" started-at="2018-03-22T17:04:51Z" finished-at="2018-03-22T17:04:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="18180" started-at="2018-03-22T14:38:04Z" finished-at="2018-03-22T14:38:22Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8186" started-at="2018-03-22T17:04:51Z" finished-at="2018-03-22T17:04:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="HISMenu()[pri:11, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="HISMenu" duration-ms="4895" started-at="2018-03-22T14:38:22Z" finished-at="2018-03-22T14:38:27Z">
+        <test-method status="PASS" signature="EnterpriseIntegrationMenu()[pri:11, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="EnterpriseIntegrationMenu" duration-ms="5206" started-at="2018-03-22T17:04:59Z" finished-at="2018-03-22T17:05:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HISMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="2329" started-at="2018-03-22T14:38:27Z" finished-at="2018-03-22T14:38:29Z">
+        </test-method> <!-- EnterpriseIntegrationMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="206" started-at="2018-03-22T17:05:04Z" finished-at="2018-03-22T17:05:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7812" started-at="2018-03-22T14:38:29Z" finished-at="2018-03-22T14:38:37Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7568" started-at="2018-03-22T17:05:05Z" finished-at="2018-03-22T17:05:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="PATIENTADMINSYSTEMMenu()[pri:12, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="PATIENTADMINSYSTEMMenu" duration-ms="5952" started-at="2018-03-22T14:38:37Z" finished-at="2018-03-22T14:38:43Z">
+        <test-method status="PASS" signature="SoftwareQualityAndTestingMenu()[pri:12, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="SoftwareQualityAndTestingMenu" duration-ms="5624" started-at="2018-03-22T17:05:12Z" finished-at="2018-03-22T17:05:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PATIENTADMINSYSTEMMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="214" started-at="2018-03-22T14:38:43Z" finished-at="2018-03-22T14:38:43Z">
+        </test-method> <!-- SoftwareQualityAndTestingMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="155" started-at="2018-03-22T17:05:18Z" finished-at="2018-03-22T17:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7440" started-at="2018-03-22T14:38:43Z" finished-at="2018-03-22T14:38:51Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="11403" started-at="2018-03-22T17:05:18Z" finished-at="2018-03-22T17:05:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="FINANCEFORHOSPITALMenu()[pri:13, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="FINANCEFORHOSPITALMenu" duration-ms="5865" started-at="2018-03-22T14:38:51Z" finished-at="2018-03-22T14:38:56Z">
+        <test-method status="PASS" signature="PHPDevelopmentMenu()[pri:13, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="PHPDevelopmentMenu" duration-ms="5695" started-at="2018-03-22T17:05:29Z" finished-at="2018-03-22T17:05:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FINANCEFORHOSPITALMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="168" started-at="2018-03-22T14:38:56Z" finished-at="2018-03-22T14:38:57Z">
+        </test-method> <!-- PHPDevelopmentMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="198" started-at="2018-03-22T17:05:35Z" finished-at="2018-03-22T17:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="7087" started-at="2018-03-22T14:38:57Z" finished-at="2018-03-22T14:39:04Z">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="12621" started-at="2018-03-22T17:05:35Z" finished-at="2018-03-22T17:05:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriver -->
-        <test-method status="PASS" signature="OCCUPATIONALHEALTHMenu()[pri:14, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="OCCUPATIONALHEALTHMenu" duration-ms="6201" started-at="2018-03-22T14:39:04Z" finished-at="2018-03-22T14:39:10Z">
+        <test-method status="PASS" signature="JavascriptDevelopmentMenu()[pri:14, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="JavascriptDevelopmentMenu" duration-ms="6146" started-at="2018-03-22T17:05:48Z" finished-at="2018-03-22T17:05:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OCCUPATIONALHEALTHMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ProductMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="185" started-at="2018-03-22T14:39:10Z" finished-at="2018-03-22T14:39:10Z">
+        </test-method> <!-- JavascriptDevelopmentMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="189" started-at="2018-03-22T17:05:54Z" finished-at="2018-03-22T17:05:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Chrome.ProductMenuTest_Chrome -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8043" started-at="2018-03-22T17:05:54Z" finished-at="2018-03-22T17:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="ManagedServiceMenu()[pri:15, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="ManagedServiceMenu" duration-ms="5207" started-at="2018-03-22T17:06:02Z" finished-at="2018-03-22T17:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagedServiceMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="216" started-at="2018-03-22T17:06:07Z" finished-at="2018-03-22T17:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8223" started-at="2018-03-22T17:06:08Z" finished-at="2018-03-22T17:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="LowCodeDevelopmentMenu()[pri:16, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="LowCodeDevelopmentMenu" duration-ms="5701" started-at="2018-03-22T17:06:16Z" finished-at="2018-03-22T17:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LowCodeDevelopmentMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="303" started-at="2018-03-22T17:06:22Z" finished-at="2018-03-22T17:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="initiateDriver" is-config="true" duration-ms="8937" started-at="2018-03-22T17:06:22Z" finished-at="2018-03-22T17:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="SoftwareDevelopmentMenu()[pri:17, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="SoftwareDevelopmentMenu" duration-ms="6393" started-at="2018-03-22T17:06:31Z" finished-at="2018-03-22T17:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoftwareDevelopmentMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Chrome.ServiceMenuTest_Chrome@3532ec19]" name="closeBrowser" is-config="true" duration-ms="2346" started-at="2018-03-22T17:06:37Z" finished-at="2018-03-22T17:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Chrome.ServiceMenuTest_Chrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

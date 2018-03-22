@@ -3,17 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Firefox.ProductMenuTest_Firefox">
+      <class name="Firefox.ServiceMenuTest_Firefox">
         <methods>
+          <include name="SoftwareDevelopmentMenu"/>
           <include name="initiateDriver"/>
-          <include name="OCCUPATIONALHEALTHMenu"/>
-          <include name="MEDICALSOFTWAREMenu"/>
-          <include name="PATIENTADMINSYSTEMMenu"/>
-          <include name="HISMenu"/>
-          <include name="FINANCEFORHOSPITALMenu"/>
+          <include name="PHPDevelopmentMenu"/>
+          <include name="LowCodeDevelopmentMenu"/>
+          <include name="ManagedServiceMenu"/>
+          <include name="JavascriptDevelopmentMenu"/>
+          <include name="SoftwareQualityAndTestingMenu"/>
+          <include name="EnterpriseIntegrationMenu"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Firefox.ProductMenuTest_Firefox -->
+      </class> <!-- Firefox.ServiceMenuTest_Firefox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

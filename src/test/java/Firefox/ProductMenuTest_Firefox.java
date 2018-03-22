@@ -31,7 +31,7 @@ public class ProductMenuTest_Firefox {
 	 };	
 	 
 	//Click on Sub menu Mining Software
-		@Test(priority=1,enabled=false)
+		@Test(priority=1,enabled=true)
 		public void MiningSoftwareMenu() throws InterruptedException
 				{	
 					Products.CLICKminingSoftware();
@@ -41,7 +41,7 @@ public class ProductMenuTest_Firefox {
 				};	
 	 
 	//Click on Sub menu CCLAS
-		@Test(priority=2,enabled=false)
+		@Test(priority=2,enabled=true)
 		public void CCLASMenu() throws InterruptedException
 				{	
 					Products.CLICKcclas();
@@ -50,7 +50,7 @@ public class ProductMenuTest_Firefox {
 				};
 				
 	//Click on Sub menu CLASIC
-		@Test(priority=3,enabled=false)
+		@Test(priority=3,enabled=true)
 		public void CLASICMenu() throws InterruptedException
 				{	
 					Products.CLICKclasic();
@@ -59,7 +59,7 @@ public class ProductMenuTest_Firefox {
 				};
 				
 	//Click on Sub menu ELLIPSE
-		@Test(priority=4,enabled=false)
+		@Test(priority=4,enabled=true)
 		public void ELLIPSEMenu() throws InterruptedException
 				{	
 					Products.CLICKellipse();
@@ -68,7 +68,7 @@ public class ProductMenuTest_Firefox {
 				};	
 				
 	//Click on Sub menu LINKONE
-		@Test(priority=5,enabled=false)
+		@Test(priority=5,enabled=true)
 		public void LINKONEMenu() throws InterruptedException
 				{	
 					Products.CLICKlinkOne();
@@ -77,7 +77,7 @@ public class ProductMenuTest_Firefox {
 				};
 				
 	//Click on Sub menu MINEMARKET
-		@Test(priority=6,enabled=false)
+		@Test(priority=6,enabled=true)
 		public void MINEMARKETMenu() throws InterruptedException
 				{
 					Products.CLICKmineMarket();
@@ -86,7 +86,7 @@ public class ProductMenuTest_Firefox {
 				};	
 							
 	//Click on Sub menu MINESCAPE
-		@Test(priority=7,enabled=false)
+		@Test(priority=7,enabled=true)
 		public void MINESCAPEMenu() throws InterruptedException
 				{
 					Products.CLICKmineScape();
@@ -95,7 +95,7 @@ public class ProductMenuTest_Firefox {
 				};	
 				
 	//Click on Sub menu SPRYSCHEDULER
-		@Test(priority=8,enabled=false)
+		@Test(priority=8,enabled=true)
 		public void SPRYSCHEDULERMenu() throws InterruptedException
 				{
 					Products.CLICKspryScheduler();
@@ -104,7 +104,7 @@ public class ProductMenuTest_Firefox {
 				};	
 										
 	//Click on Sub menu MCAT
-		@Test(priority=9,enabled=false)
+		@Test(priority=9,enabled=true)
 		public void MCATMenu() throws InterruptedException
 				{
 					Products.CLICKmCat();
@@ -113,7 +113,7 @@ public class ProductMenuTest_Firefox {
 				};			
 							
 	//Click on Sub menu MEDICAL SOFTWARE
-		@Test(priority=10,enabled=false)
+		@Test(priority=10,enabled=true)
 		public void MEDICALSOFTWAREMenu() throws InterruptedException
 				{
 					Products.CLICKmedicalSoftware();
@@ -131,7 +131,7 @@ public class ProductMenuTest_Firefox {
 				};
 							
 	//Click on Sub menu PATIENT ADMIN SYSTEM
-		@Test(priority=12,enabled=false)
+		@Test(priority=12,enabled=true)
 		public void PATIENTADMINSYSTEMMenu() throws InterruptedException
 				{
 					Products.CLICKpatientAdminSystem();
@@ -140,7 +140,7 @@ public class ProductMenuTest_Firefox {
 				};
 													
 	//Click on Sub menu FINANCE FOR HOSPITAL
-		@Test(priority=13,enabled=false)
+		@Test(priority=13,enabled=true)
 		public void FINANCEFORHOSPITALMenu() throws InterruptedException
 				{
 					Products.CLICKfinanceForHospital();
@@ -149,7 +149,7 @@ public class ProductMenuTest_Firefox {
 				};	
 							
 	//Click on Sub menu FINANCE FOR HOSPITAL
-		@Test(priority=14,enabled=false)
+		@Test(priority=14,enabled=true)
 		public void OCCUPATIONALHEALTHMenu() throws InterruptedException
 				{
 					Products.CLICKoccupatinalHealth();

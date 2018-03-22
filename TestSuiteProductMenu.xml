@@ -3,6 +3,7 @@
   <test name="Test">
     <classes>
       <class name="Chrome.ProductMenuTest_Chrome"/>
+      <class name="Firefox.ProductMenuTest_Firefox"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

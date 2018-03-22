@@ -10,37 +10,39 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ServiceMenu_PO {
 	WebDriver driver;
 	By Services_Menu = By.xpath ("//*[@id='menu-item-1299']/a");
-	By MicWinApp = By.id("menu-item-1309");
+	By Software_Devp = By.xpath("//*[@id='menu-item-1301']/a");
+	By Software_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By MicWinApp = By.xpath("//*[@id='menu-item-1309']/a");
 	By Microsoft_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Mob_Serv = By.id("menu-item-1310");
+	By Mob_Serv = By.xpath("//*[@id='menu-item-1310']/a");
 	By Mob_Serv_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Java_Tech = By.id("menu-item-1306");
+	By Java_Tech = By.xpath("//*[@id='menu-item-1306']/a");
 	By Java_Tech_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Business_Intl = By.id("menu-item-1303");
+	By Business_Intl = By.xpath("//*[@id='menu-item-1303']/a");
 	By Business_Intl_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Web_FRE = By.id("menu-item-1314");
+	By Web_FRE = By.xpath("//*[@id='menu-item-1314']/a");
 	By Web_FRE_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Soft_Design = By.id("menu-item-1311");
+	By Soft_Design = By.xpath("//*[@id='menu-item-1311']/a");
 	By Soft_Design_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Ruby_Rail = By.id("menu-item-1639");
+	By Ruby_Rail = By.xpath("//*[@id='menu-item-1639']/a");
 	By Ruby_Rail_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By User_Interact = By.id("menu-item-1313");
+	By User_Interact = By.xpath("//*[@id='menu-item-1313']/a");
 	By User_Interact_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Web_Sol = By.id("menu-item-1308");
+	By Web_Sol = By.xpath("//*[@id='menu-item-1308']/a");
 	By Web_Sol_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Ellipse = By.id("menu-item-1304");
+	By Ellipse = By.xpath("//*[@id='menu-item-1304']/a");
 	By Ellipse_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Enterpise_Int = By.id("menu-item-1305");
+	By Enterpise_Int = By.xpath("//*[@id='menu-item-1305']/a");
 	By Enterpise_Int_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Soft_Test = By.id("menu-item-1312");
+	By Soft_Test = By.xpath("//*[@id='menu-item-1312']/a");
 	By Soft_Test_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By PHP_Devp = By.id("menu-item-1625");
+	By PHP_Devp = By.xpath("//*[@id='menu-item-1625']/a");
 	By PHP_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By JavaSript_Devp = By.id("menu-item-1587");
+	By JavaSript_Devp = By.xpath("//*[@id='menu-item-1587']/a");
 	By JavaSript_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By Managed_Serv = By.id("menu-item-1307");
+	By Managed_Serv = By.xpath("//*[@id='menu-item-1307']/a");
 	By Managed_Serv_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
-	By LowCode_Devp = By.id("menu-item-1640");
+	By LowCode_Devp = By.xpath("//*[@id='menu-item-1640']/a");
 	By LowCode_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
 	
 	public ServiceMenu_PO(WebDriver driver)
@@ -367,4 +369,24 @@ public class ServiceMenu_PO {
 					driver.findElement(LowCode_Devp_Text).isDisplayed();
 				}
 				
+			
+		//Validate SoftwareDevelopment_TEST_actions
+			public void CLICKsoftwareDevelopment() throws InterruptedException
+				{
+					HoverMouseonServices();
+					WebElement submenu1 = driver.findElement(Software_Devp);
+					Actions action18 = new Actions(driver); action18.moveToElement(submenu1).click().build().perform();   
+				}
+		//Explicit wait for Software Development
+			public void WAITINGsoftwareDevelopment()
+				{	
+					WebDriverWait wait=new WebDriverWait(driver,5000);
+					WebElement element18= wait.until(ExpectedConditions.visibilityOfElementLocated(Software_Devp_Text));
+				}		
+		//Validate LowCodeDevelopment-assert				
+			public void ASSERTsoftwareDevelopment()
+				{
+					driver.findElement(Software_Devp_Text).isDisplayed();
+				}
+			
 }
