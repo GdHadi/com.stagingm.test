@@ -2,129 +2,200 @@ package Chrome;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.stagingm.com.stagingm.test.ServiceMenu_PO;
 
 public class ServiceMenuTest_Chrome {
+	public static WebDriver driver;
+	public static ServiceMenu_PO Services;
+	
 	@BeforeMethod
 	public void initiateDriver() {
 		System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get("https://stagingmitrais.com/en/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		Services = new ServiceMenu_PO(driver);
 	} 
 	
+	 @AfterMethod
+	 public void closeBrowser (){
+		 driver.close(); 
+	 };	
 		
-	@Test
-	public void AccessServicesMenu() throws InterruptedException
-	{
-			ChromeDriver driver=new ChromeDriver();
-			driver.get("https://stagingmitrais.com/en/");
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-			
-
-			//Click on Contact menu Services	
-					ServiceMenu_PO Services = new ServiceMenu_PO(driver);
-				//	Services.ServicesMenu();
-					
-			//Click on Sub menu Microsoft Windows Applications
-					Services.CallSubmenu1();
-			//Assertion by displaying Microsoft Windows Applications Page	
-					Services.AsserMicWinApp();
-					Thread.sleep(3000);
-								
-			//Click on Sub menu Mobile Services
-					Services.CallSubmenu2();
-			//Assertion by displaying Mobile Services Page	
-					Services.AsserMobServ();
-					Thread.sleep(3000);
-					
-			//Click on Sub menu Java Technologies
-					Services.CallSubmenu3();
-			//Assertion by displaying Java Technologies Page	
-					Services.AsserJavaTech();
-					Thread.sleep(3000);
-					
-			//Click on Sub menu Business Intelligence
-					Services.CallSubmenu4();
-			//Assertion by displaying Business Intelligence Page	
-					Services.AsserBusinessIntl();
-					Thread.sleep(3000);
-					
-			//Click on Sub menu Web Front End
-					Services.CallSubmenu5();
-			//Assertion by displaying Web Front End Page	
-					Services.AsserWebFE();
-					Thread.sleep(3000);	
-					
-			//Click on Sub menu Software Design Tools
-					Services.CallSubmenu6();
-			//Assertion by displaying Software Design Tools Page	
-					Services.AsserSoftDesign();
-					Thread.sleep(3000);		
-					
-			//Click on Sub menu Ruby on Rail Development page
-					Services.CallSubmenu7();
-			//Assertion by displaying Ruby on Rail Development
-					Services.AsserRubyonRail();
-					Thread.sleep(3000);		
-							
-			//Click on Sub menu User Interaction Design
-					Services.CallSubmenu8();
-			//Assertion by displaying User Interaction Design page
-					Services.AsserUserInteract();
-					Thread.sleep(3000);			
-					
-			//Click on Sub menu Web Solution
-					Services.CallSubmenu9();
-			//Assertion by displaying Web Solution page
-					Services.AsserUserWebSol();
-					Thread.sleep(3000);		
-					
-			//Click on Sub menu Ellipse
-					Services.CallSubmenu10();
-			//Assertion by displaying Ellipse page
-					Services.AsserEllipse();
-					Thread.sleep(3000);		
-			
-			//Click on Sub menu Eterprise Integration
-					Services.CallSubmenu11();
-			//Assertion by displaying Enterpise Integration page
-					Services.AsserEnterpiseInt();
-					Thread.sleep(3000);	
-			
-			//Click on Sub menu Software Quality and Testing
-					Services.CallSubmenu12();
-			//Assertion by displaying Quality and Testing page
-					Services.AsserSoftTest();
-					Thread.sleep(3000);			
-					
-			//Click on Sub menu PHP Development
-					Services.CallSubmenu13();
-			//Assertion by displaying PHP Development page
-					Services.AsserPHPDevp();
-					Thread.sleep(3000);		
-			
-			//Click on Sub menu Java script Development
-					Services.CallSubmenu14();
-			//Assertion by displaying Java script Development page
-					Services.AsserJavasript();
-					Thread.sleep(3000);	
-					
-			//Click on Sub menu Managed Service
-					Services.CallSubmenu15();
-			//Assertion by displaying Java script Development page
-					Services.AsserManagedServ();
-					Thread.sleep(3000);			
-					
-			//Click on Sub Low Code Development
-					Services.CallSubmenu16();
-			//Assertion by displaying Low Code Development page
-					Services.AsserLowCodeDevp();
-					Thread.sleep(3000);		
+	//Click on Sub menu Microsoft Windows Applications
+	@Test(priority=1,enabled=true)
+	public void MicrosoftWindowsAppsMenu() throws InterruptedException
+			{	
+				Services.CLICKmicrosoftWindowsApps();
+				Services.WAITINGmicrosoftWindowsApps();	
+				Services.ASSERTmicrosoftWindowsApps();
 				
-					//close browser
-					driver.close(); 
-	}
+			};
+	
+	//Click on Sub menu Mobile Services	
+	@Test(priority=2,enabled=true)							
+	public void MobileServicesMenu() throws InterruptedException
+			{
+				Services.CLICKmobileServices();
+				Services.WAITINGmobileServices();
+				Services.ASSERTmobileServices();
+				//Thread.sleep(2000);
+			};		
+	
+	//Click on Sub menu Java Technologies
+	@Test(priority=3,enabled=true)							
+	public void JavaTechnologiesMenu() throws InterruptedException
+			{
+				Services.CLICKjavaTechnologies();
+				Services.WAITINGjavaTechnologies();
+				Services.ASSERTjavaTechnologies();
+				//Thread.sleep(2000);
+			};
+	
+	//Click on Sub menu Business Intelligence	
+	@Test(priority=4,enabled=true)							
+	public void BusinessIntelegenceMenu() throws InterruptedException
+			{
+				Services.CLICKbusinessIntelegence();
+				Services.WAITINGbusinessIntelegence();
+				Services.ASSERTbusinessIntelegence();
+				//Thread.sleep(2000);
+			};
+					
+	//Click on Sub menu Web Front End		
+	@Test(priority=5,enabled=true)							
+	public void WebFrontEndMenu() throws InterruptedException	
+			{
+				Services.CLICKwebFrontEnd();
+				Services.WAITINGwebFrontEnd();
+				Services.ASSERTwebFrontEnd();
+				//Thread.sleep(2000);	
+			};	
+			
+	//Click on Sub menu Software Design Tools
+	@Test(priority=6,enabled=true)							
+	public void SoftwareDesignToolsMenu() throws InterruptedException	
+			{		
+				Services.CLICKsoftwareDesignTools();
+				Services.WAITINGsoftwareDesignTools();
+				Services.ASSERTsoftwareDesignTools();
+				//Thread.sleep(2000);	
+			};
+			
+	//Click on Sub menu Ruby on Rails Development page	
+	@Test(priority=7,enabled=true)
+	public void RubyOnRailsDevelopmentMenu() throws InterruptedException	
+			{						
+				Services.CLICKrubyOnRailsDevelopment();
+				Services.WAITINGrubyOnRailsDevelopment();
+				Services.ASSERTrubyOnRailsDevelopment();
+				//Thread.sleep(2000);	
+			};
+		
+	//Click on Sub menu User Interaction Design
+	@Test(priority=8,enabled=true)
+	public void UserInteractionDesignMenu() throws InterruptedException	
+			{						
+				Services.CLICKuserInteractionDesign();
+				Services.WAITINGuserInteractionDesign();
+				Services.ASSERTuserInteractionDesign();
+				//Thread.sleep(2000);
+			};
+		
+	//Click on Sub menu Web Solution
+	@Test(priority=9,enabled=true)
+	public void WebSolutionMenu() throws InterruptedException	
+			{
+				Services.CLICKwebSolution();
+				Services.WAITINGwebSolution();
+				Services.ASSERTwebSolution();
+				//Thread.sleep(2000);		
+			};
+	
+	//Click on Sub menu Ellipse
+	@Test(priority=10,enabled=true)
+	public void EllipseMenu() throws InterruptedException	
+			{	
+				Services.CLICKellipse();
+				Services.WAITINGellipse();
+				Services.ASSERTellipse();
+				//Thread.sleep(2000);		
+			};
+			
+	//Click on Sub menu Enterprise Integration
+	@Test(priority=11,enabled=true)
+	public void EnterpriseIntegrationMenu() throws InterruptedException	
+			{	
+				Services.CLICKenterpriseIntegration();
+				Services.WAITINGenterpriseIntegration();
+				Services.ASSERTenterpriseIntegration();
+				//Thread.sleep(2000);	
+			};
+	
+	//Click on Sub menu Software Quality and Testing	
+	@Test(priority=12,enabled=true)
+	public void SoftwareQualityAndTestingMenu() throws InterruptedException		
+			{
+				Services.CLICKsoftwareQualityAndTesting();
+				Services.WAITINGsoftwareQualityAndTesting();
+				Services.ASSERTsoftwareQualityAndTesting();
+				//Thread.sleep(2000);			
+			};		
+			
+	//Click on Sub menu PHP Development
+	@Test(priority=13,enabled=true)
+	public void PHPDevelopmentMenu() throws InterruptedException		
+			{
+				Services.CLICKphpDevelopment();
+				Services.WAITINGphpDevelopment();
+				Services.ASSERTphpDevelopment();
+				//Thread.sleep(2000);		
+			};
+			
+	//Click on Sub menu Java script Development
+	@Test(priority=14,enabled=true)
+	public void JavascriptDevelopmentMenu() throws InterruptedException		
+			{
+				Services.CLICKjavascriptDevelopment();
+				Services.WAITINGjavascriptDevelopment();
+				Services.ASSERTjavascriptDevelopment();
+				//Thread.sleep(2000);	
+			};		
+			
+	//Click on Sub menu Managed Service
+	@Test(priority=15,enabled=true)
+	public void ManagedServiceMenu() throws InterruptedException		
+			{			
+				Services.CLICKmanagedService();
+				Services.WAITINGmanagedService();
+				Services.ASSERTmanagedService();
+				//Thread.sleep(2000);			
+			};
+	
+	//Click on Sub Low Code Development
+	@Test(priority=16,enabled=true)
+	public void LowCodeDevelopmentMenu() throws InterruptedException		
+			{		
+				Services.CLICKlowCodeDevelopment();
+				Services.WAITINGlowCodeDevelopment();
+				Services.ASSERTlowCodeDevelopment();
+				//Thread.sleep(2000);		
+			};	
+	//Click on Sub Low Code Development
+	@Test(priority=17,enabled=true)
+	public void SoftwareDevelopmentMenu() throws InterruptedException		
+			{		
+				Services.CLICKsoftwareDevelopment();
+				Services.WAITINGsoftwareDevelopment();
+				Services.ASSERTsoftwareDevelopment();
+				//Thread.sleep(2000);		
+			};				
+	
 }
