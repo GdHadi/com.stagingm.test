@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProductMenu_PO {
 	WebDriver driver;
@@ -49,13 +51,21 @@ public class ProductMenu_PO {
 		Actions action100 = new Actions(driver); action100.moveToElement(Products).perform();
 		Thread.sleep(2000);
 	}
-		
+	
+				
 	//Validate MiningSoftware_TEST-actions
 		public void CLICKminingSoftware() throws InterruptedException
 			{
 				HoverMouseonProducts();
 				WebElement submenu2 = driver.findElement(MiningSoftware_Menu);
 				Actions action101 = new Actions(driver); action101.moveToElement(submenu2).click().build().perform();   
+			}
+	
+	//Explicit wait for Element Mining Software
+		public void WAITINGelementMiningSoftware()
+			{	
+				WebDriverWait wait=new WebDriverWait(driver,5000);
+				WebElement element101= wait.until(ExpectedConditions.visibilityOfElementLocated(MiningSoftware_Text));
 			}
 		
 	//Validate MiningSoftware-assert
@@ -71,37 +81,56 @@ public class ProductMenu_PO {
 				WebElement submenu2 = driver.findElement(CCLAS_Menu);
 				Actions action102 = new Actions(driver); action102.moveToElement(submenu2).click().build().perform();   
 			}
+	//Explicit wait for Element CCLAS
+		public void WAITINGelementCCLAS()
+			{	
+				WebDriverWait wait=new WebDriverWait(driver,5000);
+				WebElement element102=wait.until(ExpectedConditions.visibilityOfElementLocated(CCLAS_Text));
+			}
+		
 		//Validate CCLASS-assert
 			public void ASSERTcclas ()
 			{
 				driver.findElement(CCLAS_Text).isDisplayed();
 			}
 			
-			//Validate CLASIC_TEST-actions
+		//Validate CLASIC_TEST-actions
 			public void CLICKclasic() throws InterruptedException
 				{
 					HoverMouseonProducts();
 					WebElement submenu2 = driver.findElement(CLASIC_Menu);
 					Actions action103 = new Actions(driver); action103.moveToElement(submenu2).click().build().perform();   
 				}
-			//Validate CLASSIC-assert
-				public void ASSERTclasic ()
+		//Explicit wait for Element CLASIC
+			public void WAITINGelementCLASIC()
+				{	
+					WebDriverWait wait=new WebDriverWait(driver,5000);
+					WebElement element103=wait.until(ExpectedConditions.visibilityOfElementLocated(CLASIC_Text));
+				}	
+		//Validate CLASSIC-assert
+			public void ASSERTclasic ()
 				{
 					driver.findElement(CLASIC_Text).isDisplayed();
 				}
 				
-			//Validate ELLIPSE_TEST-actions
-				public void CLICKellipse() throws InterruptedException
-					{
-						HoverMouseonProducts();
-						WebElement submenu2 = driver.findElement(ELLIPSE_Menu);
-						Actions action104 = new Actions(driver); action104.moveToElement(submenu2).click().build().perform();   
-					}
-			//Validate ELLIPSE-assert
-				public void ASSERTellipse ()
-					{
-						driver.findElement(ELLIPSE_Text).isDisplayed();
-					}
+		//Validate ELLIPSE_TEST-actions
+			public void CLICKellipse() throws InterruptedException
+				{
+					HoverMouseonProducts();
+					WebElement submenu2 = driver.findElement(ELLIPSE_Menu);
+					Actions action104 = new Actions(driver); action104.moveToElement(submenu2).click().build().perform();   
+				}
+		//Explicit wait for Element ELLIPSE
+			public void WAITINGelementEllipse()
+				{	
+					WebDriverWait wait=new WebDriverWait(driver,5000);
+					WebElement element104=wait.until(ExpectedConditions.visibilityOfElementLocated(ELLIPSE_Text));
+				}		
+		//Validate ELLIPSE-assert
+			public void ASSERTellipse ()
+				{
+					driver.findElement(ELLIPSE_Text).isDisplayed();
+				}
 			
 			//Validate LINKONE_TEST-actions
 				public void CLICKlinkOne() throws InterruptedException
@@ -110,7 +139,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(LINKONE_Menu);
 						Actions action105 = new Actions(driver); action105.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element LINKONE
+				public void WAITINGelementLinkOne()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element105=wait.until(ExpectedConditions.visibilityOfElementLocated(LINKONE_Text));
+					}		
 			//Validate LINKONE-assert
 				public void ASSERTlinkOne ()
 					{
@@ -125,7 +159,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(MINEMARKET_Menu);
 						Actions action106 = new Actions(driver); action106.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element MINEMARKET
+				public void WAITINGelementMinemarket()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element106=wait.until(ExpectedConditions.visibilityOfElementLocated(MINEMARKET_Text));
+					}		
 			//Validate MINEMARKET-assert
 				public void ASSERTmineMarket()
 					{
@@ -139,7 +178,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(MINESCAPE_Menu);
 						Actions action107 = new Actions(driver); action107.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element MINESCAPE
+				public void WAITINGelementMinescape()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element107=wait.until(ExpectedConditions.visibilityOfElementLocated(MINESCAPE_Text));
+					}	
 			//Validate MINESCAPE-assert
 				public void ASSERTmineScape()
 					{
@@ -153,7 +197,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(SPRYSCHEDULER_Menu);
 						Actions action108 = new Actions(driver); action108.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element SPRYSCHEDULER
+				public void WAITINGelementSpryScheduler()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element108=wait.until(ExpectedConditions.visibilityOfElementLocated(SPRYSCHEDULER_Text));
+					}		
 			//Validate SPRYSCHEDULER-assert
 				public void ASSERTspryScheduler()
 					{
@@ -167,7 +216,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(MCAT_Menu);
 						Actions action109 = new Actions(driver); action109.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element MCAT
+				public void WAITINGelementMcat()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element109=wait.until(ExpectedConditions.visibilityOfElementLocated(MCAT_Text));
+					}		
 			//Validate MCAT-assert
 				public void ASSERTmCat()
 					{
@@ -181,7 +235,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(MEDICALSOFTWARE_Menu);
 						Actions action110 = new Actions(driver); action110.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element MEDICALSOFTWARE
+				public void WAITINGelementMedicalSoftware()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element110=wait.until(ExpectedConditions.visibilityOfElementLocated(MEDICALSOFTWARE_Text));
+					}	
 			//Validate MEDICALSOFTWARE-assert
 				public void ASSERTmedicalSoftware()
 					{
@@ -195,7 +254,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(HIS_Menu);
 						Actions action111 = new Actions(driver); action111.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element HIS
+				public void WAITINGelementHIS()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element111=wait.until(ExpectedConditions.visibilityOfElementLocated(HIS_Text));
+					}		
 			//Validate HIS-assert
 				public void ASSERThis()
 					{
@@ -209,7 +273,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(PATIENTADMSYS_Menu);
 						Actions action112 = new Actions(driver); action112.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element PATIENTADMSYSTEM
+				public void WAITINGelementPatientAdminSystem()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element112=wait.until(ExpectedConditions.visibilityOfElementLocated(PATIENTADMSYS_Text));
+					}	
 			//Validate PATIENTADMSYSTEM-assert
 				public void ASSERTpatientAdminSystem()
 					{
@@ -223,7 +292,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(FINANCEFORHOSPITAL_Menu);
 						Actions action113 = new Actions(driver); action113.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element FINANCEFORHOSPITAL
+				public void WAITINGelementFinanceForHospital()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element113=wait.until(ExpectedConditions.visibilityOfElementLocated(FINANCEFORHOSPITAL_Text));
+					}	
 			//Validate FINANCEFORHOSPITAL-assert
 				public void ASSERTfinanceForHospital()
 					{
@@ -237,7 +311,12 @@ public class ProductMenu_PO {
 						WebElement submenu2 = driver.findElement(OCCUPATIONALHEALTH_Menu);
 						Actions action114 = new Actions(driver); action114.moveToElement(submenu2).click().build().perform();   
 					}
-				
+			//Explicit wait for Element OCCUPATIONALHEALTH
+				public void WAITINGelementOccupationalHealth()
+					{	
+						WebDriverWait wait=new WebDriverWait(driver,5000);
+						WebElement element114=wait.until(ExpectedConditions.visibilityOfElementLocated(OCCUPATIONALHEALTH_Text));
+					}	
 			//Validate OCCUPATIONALHEALTH-assert
 				public void ASSERToccupatinalHealth()
 					{

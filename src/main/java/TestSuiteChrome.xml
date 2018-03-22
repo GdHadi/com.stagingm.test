@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="Chrome.ServiceMenuTest_Chrome"/>
+      <class name="Chrome.ProductMenuTest_Chrome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
