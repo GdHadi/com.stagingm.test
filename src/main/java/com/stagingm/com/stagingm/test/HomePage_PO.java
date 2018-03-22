@@ -19,7 +19,7 @@ public class HomePage_PO {
 	By AboutUsTitle = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
 	By Service = By.xpath("//*[@id='menu-item-1299']/a");
 	By softDevLink = By.xpath("//*[@id='menu-item-1301']/a");
-	By softDevTitle = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By softDevTitle = By.xpath("/html/body/div[3]/header/div[2]/div/div/h199");
 	
 	//HomePageTest_Chrome-actions
 	public HomePage_PO(WebDriver driver) {
