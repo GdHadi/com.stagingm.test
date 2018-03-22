@@ -36,6 +36,7 @@ public class ServiceMenuTest_Firefox {
 	public void MicrosoftWindowsAppsMenu() throws InterruptedException
 			{	
 				Services.CLICKmicrosoftWindowsApps();
+				Services.WAITINGmicrosoftWindowsApps();
 				Services.ASSERTmicrosoftWindowsApps();
 				//Thread.sleep(2000);
 			};
@@ -45,6 +46,7 @@ public class ServiceMenuTest_Firefox {
 	public void MobileServicesMenu() throws InterruptedException
 			{
 				Services.CLICKmobileServices();
+				Services.WAITINGmobileServices();
 				Services.ASSERTmobileServices();
 				//Thread.sleep(2000);
 			};		
@@ -53,7 +55,8 @@ public class ServiceMenuTest_Firefox {
 	@Test(priority=3)							
 	public void JavaTechnologiesMenu() throws InterruptedException
 			{
-				Services.JavaTechnologies();
+				Services.CLICKjavaTechnologies();
+				Services.WAITINGjavaTechnologies();
 				Services.ASSERTjavaTechnologies();
 				//Thread.sleep(2000);
 			};
@@ -63,6 +66,7 @@ public class ServiceMenuTest_Firefox {
 	public void BusinessIntelegenceMenu() throws InterruptedException
 			{
 				Services.CLICKbusinessIntelegence();
+				Services.WAITINGbusinessIntelegence();
 				Services.ASSERTbusinessIntelegence();
 				//Thread.sleep(2000);
 			};
@@ -72,6 +76,7 @@ public class ServiceMenuTest_Firefox {
 	public void WebFrontEndMenu() throws InterruptedException	
 			{
 				Services.CLICKwebFrontEnd();
+				Services.WAITINGwebFrontEnd();
 				Services.ASSERTwebFrontEnd();
 				//Thread.sleep(2000);	
 			};	
@@ -81,6 +86,7 @@ public class ServiceMenuTest_Firefox {
 	public void SoftwareDesignToolsMenu() throws InterruptedException	
 			{		
 				Services.CLICKsoftwareDesignTools();
+				Services.WAITINGsoftwareDesignTools();
 				Services.ASSERTsoftwareDesignTools();
 				//Thread.sleep(2000);	
 			};
@@ -90,6 +96,7 @@ public class ServiceMenuTest_Firefox {
 	public void RubyOnRailsDevelopmentMenu() throws InterruptedException	
 			{						
 				Services.CLICKrubyOnRailsDevelopment();
+				Services.WAITINGrubyOnRailsDevelopment();
 				Services.ASSERTrubyOnRailsDevelopment();
 				//Thread.sleep(2000);	
 			};
@@ -99,6 +106,7 @@ public class ServiceMenuTest_Firefox {
 	public void UserInteractionDesignMenu() throws InterruptedException	
 			{						
 				Services.CLICKuserInteractionDesign();
+				Services.WAITINGuserInteractionDesign();
 				Services.ASSERTuserInteractionDesign();
 				//Thread.sleep(2000);
 			};
@@ -108,6 +116,7 @@ public class ServiceMenuTest_Firefox {
 	public void WebSolutionMenu() throws InterruptedException	
 			{
 				Services.CLICKwebSolution();
+				Services.WAITINGwebSolution();
 				Services.ASSERTwebSolution();
 				//Thread.sleep(2000);		
 			};
@@ -117,6 +126,7 @@ public class ServiceMenuTest_Firefox {
 	public void EllipseMenu() throws InterruptedException	
 			{	
 				Services.CLICKellipse();
+				Services.WAITINGellipse();
 				Services.ASSERTellipse();
 				//Thread.sleep(2000);		
 			};
@@ -126,6 +136,7 @@ public class ServiceMenuTest_Firefox {
 	public void EnterpriseIntegrationMenu() throws InterruptedException	
 			{	
 				Services.CLICKenterpriseIntegration();
+				Services.WAITINGenterpriseIntegration();
 				Services.ASSERTenterpriseIntegration();
 				//Thread.sleep(2000);	
 			};
@@ -135,6 +146,7 @@ public class ServiceMenuTest_Firefox {
 	public void SoftwareQualityAndTestingMenu() throws InterruptedException		
 			{
 				Services.CLICKsoftwareQualityAndTesting();
+				Services.WAITINGsoftwareQualityAndTesting();
 				Services.ASSERTsoftwareQualityAndTesting();
 				//Thread.sleep(2000);			
 			};		
@@ -144,6 +156,7 @@ public class ServiceMenuTest_Firefox {
 	public void PHPDevelopmentMenu() throws InterruptedException		
 			{
 				Services.CLICKphpDevelopment();
+				Services.WAITINGphpDevelopment();
 				Services.ASSERTphpDevelopment();
 				//Thread.sleep(2000);		
 			};
@@ -153,6 +166,7 @@ public class ServiceMenuTest_Firefox {
 	public void JavascriptDevelopmentMenu() throws InterruptedException		
 			{
 				Services.CLICKjavascriptDevelopment();
+				Services.WAITINGjavascriptDevelopment();
 				Services.ASSERTjavascriptDevelopment();
 				//Thread.sleep(2000);	
 			};		
@@ -162,6 +176,7 @@ public class ServiceMenuTest_Firefox {
 	public void ManagedServiceMenu() throws InterruptedException		
 			{			
 				Services.CLICKmanagedService();
+				Services.WAITINGmanagedService();
 				Services.ASSERTmanagedService();
 				//Thread.sleep(2000);			
 			};
@@ -171,6 +186,7 @@ public class ServiceMenuTest_Firefox {
 	public void LowCodeDevelopmentMenu() throws InterruptedException		
 			{		
 				Services.CLICKlowCodeDevelopment();
+				Services.WAITINGlowCodeDevelopment();
 				Services.ASSERTlowCodeDevelopment();
 				//Thread.sleep(2000);		
 			};	
