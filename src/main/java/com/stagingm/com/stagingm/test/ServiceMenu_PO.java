@@ -11,39 +11,40 @@ public class ServiceMenu_PO {
 	WebDriver driver;
 	By Services_Menu = By.xpath ("//*[@id='menu-item-1299']/a");
 	By Software_Devp = By.xpath("//*[@id='menu-item-1301']/a");
-	By Software_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Software_Devp_Text = By.xpath("//*[@class='text-white' and contains(text(),'Software Development Service Provider')]");
 	By MicWinApp = By.xpath("//*[@id='menu-item-1309']/a");
-	By Microsoft_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Microsoft_Text = By.xpath("//*[@class='text-white' and contains(text(),'About Us')]");
 	By Mob_Serv = By.xpath("//*[@id='menu-item-1310']/a");
-	By Mob_Serv_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Mob_Serv_Text = By.xpath("//*[@class='text-white' and contains(text(),'Mobile Services')]");
 	By Java_Tech = By.xpath("//*[@id='menu-item-1306']/a");
-	By Java_Tech_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Java_Tech_Text = By.xpath("//*[@class='text-white' and contains(text(),'Java Technologies')]");
 	By Business_Intl = By.xpath("//*[@id='menu-item-1303']/a");
-	By Business_Intl_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Business_Intl_Text = By.xpath("//*[@class='text-white' and contains(text(),'Business Intelligence')]");
 	By Web_FRE = By.xpath("//*[@id='menu-item-1314']/a");
-	By Web_FRE_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Web_FRE_Text = By.xpath("//*[@class='text-white' and contains(text(),'Web Front End')]");
 	By Soft_Design = By.xpath("//*[@id='menu-item-1311']/a");
-	By Soft_Design_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Soft_Design_Text = By.xpath("//*[@class='text-white' and contains(text(),'Software Design Tools')]");
 	By Ruby_Rail = By.xpath("//*[@id='menu-item-1639']/a");
-	By Ruby_Rail_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Ruby_Rail_Text = By.xpath("//*[@class='text-white' and contains(text(),'Ruby on Rails Development')]");
 	By User_Interact = By.xpath("//*[@id='menu-item-1313']/a");
-	By User_Interact_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By User_Interact_Text = By.xpath("//*[@class='text-white' and contains(text(),'User Interaction Design')]");
 	By Web_Sol = By.xpath("//*[@id='menu-item-1308']/a");
-	By Web_Sol_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Web_Sol_Text = By.xpath("//*[@class='text-white' and contains(text(),'Microsoft Web Solutions')]");
 	By Ellipse = By.xpath("//*[@id='menu-item-1304']/a");
-	By Ellipse_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Ellipse_Text = By.xpath("//*[@class='text-white' and contains(text(),'Ellipse')]");
 	By Enterpise_Int = By.xpath("//*[@id='menu-item-1305']/a");
-	By Enterpise_Int_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Enterpise_Int_Text = By.xpath("//*[@class='text-white' and contains(text(),'Enterprise Integration')]");
 	By Soft_Test = By.xpath("//*[@id='menu-item-1312']/a");
-	By Soft_Test_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Soft_Test_Text = By.xpath("//*[@class='text-white' and contains(text(),'Software Quality and Testing')]");
 	By PHP_Devp = By.xpath("//*[@id='menu-item-1625']/a");
-	By PHP_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By PHP_Devp_Text = By.xpath("//*[@class='text-white' and contains(text(),'PHP Development')]");
 	By JavaSript_Devp = By.xpath("//*[@id='menu-item-1587']/a");
-	By JavaSript_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By JavaSript_Devp_Text = By.xpath("//*[@class='text-white' and contains(text(),'JavaScript App Development')]");
 	By Managed_Serv = By.xpath("//*[@id='menu-item-1307']/a");
-	By Managed_Serv_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By Managed_Serv_Text = By.xpath("//*[@class='text-white' and contains(text(),'Managed Services')]");
 	By LowCode_Devp = By.xpath("//*[@id='menu-item-1640']/a");
-	By LowCode_Devp_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By LowCode_Devp_Text = By.xpath("//*[@class='text-white' and contains(text(),'Low-Code Development')]");
+
 	
 	public ServiceMenu_PO(WebDriver driver)
 	{
