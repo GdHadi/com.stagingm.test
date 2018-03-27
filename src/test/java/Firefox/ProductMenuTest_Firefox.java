@@ -27,7 +27,7 @@ public class ProductMenuTest_Firefox {
 	
 	 @AfterMethod
 	 public void closeBrowser (){
-		 driver.close(); 
+		 driver.quit(); 
 	 };	
 	 
 	//Click on Sub menu Mining Software

@@ -26,7 +26,7 @@ public class ServiceMenuTest_Chrome {
 	
 	 @AfterMethod
 	 public void closeBrowser (){
-		 driver.close(); 
+		 driver.quit(); 
 	 };	
 		
 	//Click on Sub menu Microsoft Windows Applications
