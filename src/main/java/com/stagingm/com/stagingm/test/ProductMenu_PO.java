@@ -11,33 +11,33 @@ public class ProductMenu_PO {
 	WebDriver driver;
 	By Products_Menu = By.xpath("//*[@id='menu-item-1300']/a");
 	By MiningSoftware_Menu = By.xpath("//*[@id='menu-item-1316']/a");
-	By MiningSoftware_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By MiningSoftware_Text = By.xpath("//*[@class='text-white' and contains(text(),'Mining Software Services')]");
 	By CCLAS_Menu = By.xpath("//*[@id='menu-item-1318']/a");
-	By CCLAS_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By CCLAS_Text = By.xpath("//*[@class='text-white' and contains(text(),'CCLAS')]");
 	By CLASIC_Menu = By.xpath("//*[@id='menu-item-1319']/a");
-	By CLASIC_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By CLASIC_Text = By.xpath("//*[@class='text-white' and contains(text(),'Classic')]");
 	By ELLIPSE_Menu = By.xpath("//*[@id='menu-item-1320']/a");
-	By ELLIPSE_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By ELLIPSE_Text = By.xpath("//*[@class='text-white' and contains(text(),'Ellipse')]");
 	By LINKONE_Menu = By.xpath("//*[@id='menu-item-1321']/a");
-	By LINKONE_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By LINKONE_Text = By.xpath("//*[@class='text-white' and contains(text(),'LinkOne')]");
 	By MINEMARKET_Menu = By.xpath("//*[@id='menu-item-1323']/a");
-	By MINEMARKET_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By MINEMARKET_Text = By.xpath("//*[@class='text-white' and contains(text(),'MineMarket')]");
 	By MINESCAPE_Menu = By.xpath("//*[@id='menu-item-1324']/a");
-	By MINESCAPE_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By MINESCAPE_Text = By.xpath("//*[@class='text-white' and contains(text(),'MineScape')]");
 	By SPRYSCHEDULER_Menu = By.xpath("//*[@id='menu-item-1325']/a");
-	By SPRYSCHEDULER_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By SPRYSCHEDULER_Text = By.xpath("//*[@class='text-white' and contains(text(),'Spry Scheduler')]");
 	By MCAT_Menu = By.xpath("//*[@id='menu-item-1322']/a");
-	By MCAT_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By MCAT_Text = By.xpath("//*[@class='text-white' and contains(text(),'MCAT')]");
 	By MEDICALSOFTWARE_Menu = By.xpath("//*[@id='menu-item-1315']/a");
-	By MEDICALSOFTWARE_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By MEDICALSOFTWARE_Text = By.xpath("//*[@class='text-white' and contains(text(),'Medical Software Services')]");
 	By HIS_Menu = By.xpath("//*[@id='menu-item-2100']/a");
-	By HIS_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By HIS_Text = By.xpath("//*[@class='text-white' and contains(text(),'Hospital Information System')]");
 	By PATIENTADMSYS_Menu = By.xpath("//*[@id='menu-item-1327']/a");
-	By PATIENTADMSYS_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By PATIENTADMSYS_Text = By.xpath("//*[@class='text-white' and contains(text(),'Patient Administration System')]");
 	By FINANCEFORHOSPITAL_Menu = By.xpath("//*[@id='menu-item-2099']/a");
-	By FINANCEFORHOSPITAL_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By FINANCEFORHOSPITAL_Text = By.xpath("//*[@class='text-white' and contains(text(),'Finance Software for Hospitals')]");
 	By OCCUPATIONALHEALTH_Menu = By.xpath("//*[@id='menu-item-1326']/a");
-	By OCCUPATIONALHEALTH_Text = By.xpath("/html/body/div[3]/header/div[2]/div/div/h1");
+	By OCCUPATIONALHEALTH_Text = By.xpath("//*[@class='text-white' and contains(text(),'Occupational Health & Safety System')]");
 	
 	public ProductMenu_PO(WebDriver driver)
 	{
