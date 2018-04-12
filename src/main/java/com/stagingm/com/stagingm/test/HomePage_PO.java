@@ -12,7 +12,6 @@ public class HomePage_PO {
 	//Elements
 	By ContactUs_btn = By.xpath("//*[@id='el-a4311d0c']/a");
 	By Contact_Us = By.xpath("//*[@id='el-598d5239']/h1");
-	By Mitrais_Logo = By.xpath("/html/body/div[2]/nav/div/div[1]/div[1]/a/img[1]::following-sibling[div@]");
 	By LearnMore1 = By.xpath("//*[@id='el-020c24c2']/a");
 	By About_Us = By.className("text-white");
 	By AboutUsLink = By.xpath("//*[@id='menu-item-1295']/a");
@@ -26,6 +25,7 @@ public class HomePage_PO {
 				this.driver = driver;
 	}
 	
+	//Click button Contact Us
 	public void ContactUsBtn(){
 		driver.findElement(ContactUs_btn).click();
 	}

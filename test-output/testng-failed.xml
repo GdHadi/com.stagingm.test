@@ -3,20 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Firefox.ServiceMenuTest_Firefox">
+      <class name="Firefox.MiningSoftwareServicesTest_Firefox">
         <methods>
-          <include name="EllipseMenu"/>
-          <include name="SoftwareDevelopmentMenu"/>
+          <include name="LinkOne_icon"/>
+          <include name="SpryScheduler_icon"/>
+          <include name="CCLASicon"/>
+          <include name="Classic_icon"/>
+          <include name="MineScape_icon"/>
+          <include name="Ellipse_icon"/>
+          <include name="MineMarket_icon"/>
+          <include name="MCat_icon"/>
           <include name="initiateDriver"/>
-          <include name="PHPDevelopmentMenu"/>
-          <include name="LowCodeDevelopmentMenu"/>
-          <include name="ManagedServiceMenu"/>
-          <include name="JavascriptDevelopmentMenu"/>
-          <include name="SoftwareQualityAndTestingMenu"/>
-          <include name="EnterpriseIntegrationMenu"/>
-          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Firefox.ServiceMenuTest_Firefox -->
+      </class> <!-- Firefox.MiningSoftwareServicesTest_Firefox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
