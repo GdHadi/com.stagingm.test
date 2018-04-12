@@ -21,7 +21,7 @@ public class ProductMenuTest_Chrome {
 		driver=new ChromeDriver();
 		driver.get("https://stagingmitrais.com/en/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
 		Products = new ProductMenu_PO(driver);
 	} 
 	

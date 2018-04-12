@@ -3,29 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Chrome.ServiceMenuTest_Chrome">
+      <class name="Firefox.ServiceMenuTest_Firefox">
         <methods>
-          <include name="WebSolutionMenu"/>
           <include name="EllipseMenu"/>
-          <include name="SoftwareQualityAndTestingMenu"/>
-          <include name="UserInteractionDesignMenu"/>
-          <include name="SoftwareDesignToolsMenu"/>
-          <include name="BusinessIntelegenceMenu"/>
-          <include name="WebFrontEndMenu"/>
-          <include name="JavascriptDevelopmentMenu"/>
-          <include name="MobileServicesMenu"/>
-          <include name="JavaTechnologiesMenu"/>
           <include name="SoftwareDevelopmentMenu"/>
           <include name="initiateDriver"/>
-          <include name="RubyOnRailsDevelopmentMenu"/>
           <include name="PHPDevelopmentMenu"/>
-          <include name="closeBrowser"/>
           <include name="LowCodeDevelopmentMenu"/>
           <include name="ManagedServiceMenu"/>
-          <include name="MicrosoftWindowsAppsMenu"/>
+          <include name="JavascriptDevelopmentMenu"/>
+          <include name="SoftwareQualityAndTestingMenu"/>
           <include name="EnterpriseIntegrationMenu"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Chrome.ServiceMenuTest_Chrome -->
+      </class> <!-- Firefox.ServiceMenuTest_Firefox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

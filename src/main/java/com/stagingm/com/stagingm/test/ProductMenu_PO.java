@@ -27,7 +27,7 @@ public class ProductMenu_PO {
 	By SPRYSCHEDULER_Menu = By.xpath("//*[@id='menu-item-1325']/a");
 	By SPRYSCHEDULER_Text = By.xpath("//*[@class='text-white' and contains(text(),'Spry Scheduler')]");
 	By MCAT_Menu = By.xpath("//*[@id='menu-item-1322']/a");
-	By MCAT_Text = By.xpath("//*[@class='text-white' and contains(text(),'MCAT')]");
+	By MCAT_Text = By.xpath("//*[@class='text-white' and contains(text(),'MCat')]");
 	By MEDICALSOFTWARE_Menu = By.xpath("//*[@id='menu-item-1315']/a");
 	By MEDICALSOFTWARE_Text = By.xpath("//*[@class='text-white' and contains(text(),'Medical Software Services')]");
 	By HIS_Menu = By.xpath("//*[@id='menu-item-2100']/a");

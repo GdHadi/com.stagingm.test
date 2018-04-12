@@ -13,7 +13,7 @@ public class ServiceMenu_PO {
 	By Software_Devp = By.xpath("//*[@id='menu-item-1301']/a");
 	By Software_Devp_Text = By.xpath("//*[@class='text-white' and contains(text(),'Software Development Service Provider')]");
 	By MicWinApp = By.xpath("//*[@id='menu-item-1309']/a");
-	By Microsoft_Text = By.xpath("//*[@class='text-white' and contains(text(),'About Us')]");
+	By Microsoft_Text = By.xpath("//*[@class='text-white' and contains(text(),'Microsoft Windows Apps')]");
 	By Mob_Serv = By.xpath("//*[@id='menu-item-1310']/a");
 	By Mob_Serv_Text = By.xpath("//*[@class='text-white' and contains(text(),'Mobile Services')]");
 	By Java_Tech = By.xpath("//*[@id='menu-item-1306']/a");
